@@ -20,7 +20,7 @@ example:
 |[selection sort](selection_sort.cpp)|O(n^2)|O(1)|
 |[heap sort](heap_sort.cpp)|O(nlogn)|O(1)|
 |[insertion sort](insertion_sort.cpp)|O(n^2)|O(1)|
-|[radiix sort]())|O(n)|O(n)|
+|[radiix sort]()|O(n)|O(n)|
 |[merge sort]()|O(nlogn)|O(n)|
 |[quick sort]()|O(nlogn)|O(logn)|
 |etc.|etc.|etc.|
