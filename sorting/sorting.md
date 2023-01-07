@@ -16,13 +16,14 @@ example:
 -------------------
 |algorithm|time|space|
 |---------|----|-----|
-|[bubble sort]()|O(n^2)|O(1)|
+|[bubble sort](bubble_sort.cpp)|O(n^2)|O(1)|
 |[selection sort](selection_sort.cpp)|O(n^2)|O(1)|
 |[heap sort](heap_sort.cpp)|O(nlogn)|O(1)|
 |[insertion sort](insertion_sort.cpp)|O(n^2)|O(1)|
-|[radiix sort]()|O(n)|O(n)|
-|[merge sort]()|O(nlogn)|O(n)|
-|[quick sort]()|O(nlogn)|O(logn)|
+|[shell sort](shell_sort.cpp)|not sure|not sure|
+|[radix sort](radix_sort.cpp)|O(n)|O(n)|
+|[merge sort](merge_sort.cpp)|O(nlogn)|O(n)|
+|[quick sort](quick_sort.cpp)|O(nlogn)|O(logn)|
 |etc.|etc.|etc.|
 
 <u>note</u>: merge sort and quick sort are devide and conquer algorithms ( D&C )
