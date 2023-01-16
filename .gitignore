@@ -1,1 +1,7 @@
 *.exe
+
+*.bat
+
+./Utils/*
+
+gen_codeforces_md.py
