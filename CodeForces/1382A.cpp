@@ -1,4 +1,4 @@
-// Brute force : appected
+// Brute force : accepted
 #include<bits/stdc++.h>
 #define FOR(i,s,n) for(int i=s;i<n;i++)
 #define FORR(i,s,n) for(int i=n-1;i>=s;i--)
