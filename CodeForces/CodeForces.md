@@ -1,8 +1,8 @@
 # CodeForces problem list
 ## Table of content
 - [Statistic](#statistic)
-- [Accepted](#accepted)
 - [Ongoing](#ongoing)
+- [Accepted](#accepted)
 
 <u>**Note**</u> : *recommend to search with problem's code*</u>
 ## Statistic
@@ -11,6 +11,8 @@
 |Number of accepted problem | 6 | 
 |Number of on-going problem | 0 | 
 |**Total**    | 6| 
+## Ongoing
+***No on-going problem***
 ## Accepted
 **155 A. I_love_%username% (800)**
  - code : [155A.cpp](./CodeForces/155A.cpp)
@@ -36,5 +38,3 @@
  - code : [1633A.cpp](./CodeForces/1633A.cpp)
  - link : [codeforces](https://codeforces.com/problemset/problem/1633/A)
 
-## Ongoing
-***No on-going problem***
