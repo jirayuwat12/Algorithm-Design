@@ -11,7 +11,8 @@ def delete_exe(path):
         os.remove(path + '/' + file)
 
 if __name__ == '__main__':
-    paths = ['../CodeForces','../grader']
+    paths = ['C:/Users/jiray/Desktop/Algorithm Design/CodeForces',
+             'C:/Users/jiray/Desktop/Algorithm Design/grader']
     for path in paths:
         try:
             delete_exe(path)
