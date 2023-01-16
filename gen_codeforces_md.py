@@ -7,7 +7,13 @@ from tqdm import tqdm
 
 def get_file_name(path):
     file_list = os.listdir(path)
-    file_list.sort()
+    # sort by custom function that sort by problem number
+    # get only .cpp file
+    file_list = [file for file in file_list if re.search('\.cpp$', file)]
+    def custom_sort(file):
+        return int(file[:-5])
+    file_list.sort(key=custom_sort)
+    
     return file_list
 # scrap problem name from codeforces
 def web_scrap(file):
