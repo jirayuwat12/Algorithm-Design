@@ -51,10 +51,22 @@ for file in tqdm(file_list, desc='Finding file to print in CodeForces.md', total
 # print section
 with open('./CodeForces/CodeForces.md', 'w') as f:
     print('# CodeForces problem list', file=f)
+
     # table of content
     print('## Table of content', file=f)
+    print('- [Statistic](#statistic)', file=f)
     print('- [Accepted](#accepted)', file=f)
     print('- [Ongoing](#ongoing)', file=f)
+
+    # stat show in table
+    print('## Statistic', file=f)
+
+    print(f'|Name|Amount|', file=f)
+    print(f'|-------------------------------------|--------------| ', file=f)
+    print(f'|Number of accepted problem | {len(accepted_list)} | ', file=f)
+    print(f'|Number of on-going problem | {len(ongoing_list)} | ', file=f)
+    print(f'|**Total**    | {len(accepted_list) + len(ongoing_list)}| ', file=f)
+
 
     print('## Accepted', file=f)
     if len(accepted_list) == 0:
