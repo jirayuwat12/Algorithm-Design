@@ -3,6 +3,8 @@
 - [Statistic](#statistic)
 - [Accepted](#accepted)
 - [Ongoing](#ongoing)
+
+<u>**Note**</u> : *recommend to search with problem's code*</u>
 ## Statistic
 |Name|Amount|
 |-------------------------------------|--------------| 

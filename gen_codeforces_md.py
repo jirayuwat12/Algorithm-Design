@@ -56,8 +56,8 @@ with open('./CodeForces/CodeForces.md', 'w') as f:
     print('## Table of content', file=f)
     print('- [Statistic](#statistic)', file=f)
     print('- [Accepted](#accepted)', file=f)
-    print('- [Ongoing](#ongoing)', file=f)
-
+    print('- [Ongoing](#ongoing)\n', file=f)
+    print("<u>**Note**</u> : *recommend to search with problem\'s code*</u>", file=f)
     # stat show in table
     print('## Statistic', file=f)
 
