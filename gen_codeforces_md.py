@@ -49,7 +49,7 @@ for file in tqdm(file_list, desc='Finding file to print in CodeForces.md', total
         else:
             ongoing_list.append(file)
 # print section
-with open('./CodeForces/CodeForces.md', 'w') as f:
+with open('./CodeForces/README.md', 'w') as f:
     print('# CodeForces problem list', file=f)
 
 # table of content

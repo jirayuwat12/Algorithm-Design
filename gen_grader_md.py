@@ -1,7 +1,7 @@
 import os
 import time
 
-f = open("./Grader/grader.md",'w')  
+f = open("./Grader/README.md",'w')  
 
 # write header
 f.write("# Grader problem list\n")
