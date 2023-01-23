@@ -99,7 +99,7 @@ for code in code_list:
         file_type = "C"
     name = problem_dict[code.split(".")[0]]["task_name"]
     # write to file
-    print(f'| {code.split(".")[0]} | {(name)} | {problem_dict[code.split(".")[0]]["score_text"]} | {file_type} | {problem_dict[code.split(".")[0]]["last_grade_date"]} |', file=f)
+    print(f'| [{code.split(".")[0]}]({code}) | {(name)} | {problem_dict[code.split(".")[0]]["score_text"]} | {file_type} | {problem_dict[code.split(".")[0]]["last_grade_date"]} |', file=f)
 f.write("\n")
 f.close()
 
