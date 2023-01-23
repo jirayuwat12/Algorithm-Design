@@ -77,11 +77,13 @@ with open('./CodeForces/README.md', 'w') as f:
     print('## Accepted', file=f)
     if len(accepted_list) == 0:
         print('***No accepted problem***', file=f)
-
+# create table that show accepted problem
+    print('|Problem Code|Name|Difficulty|link|code|', file=f)
+    print('|------------|----|----------|----|----|', file=f)
     for file in tqdm(accepted_list, desc='Accepted problem', total=len(accepted_list), unit='file', ncols = 100):
         name, difficulty = web_scrap(file)
-        print(f'**{file[:-5]} {name} ({difficulty})**\n - code : [{file}](./CodeForces/{file})\n - link : [codeforces](https://codeforces.com/problemset/problem/{file[:-5]}/{file[-5]})\n', file=f)
-    
+        # print(f'**{file[:-5]} {name} ({difficulty})**\n - code : [{file}](./CodeForces/{file})\n - link : [codeforces](https://codeforces.com/problemset/problem/{file[:-5]}/{file[-5]})\n', file=f)
+        print(f'|{file[:-4]}|{name[3:]}|{difficulty}|[codeforces](https://codeforces.com/problemset/problem/{file[:-5]}/{file[-5]})|[code]({file})|', file=f)
 # append to log with time stamp
 import datetime
 with open('log.log', 'a') as f:
