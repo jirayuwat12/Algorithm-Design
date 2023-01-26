@@ -42,7 +42,10 @@ num_score_cpp = 0
 for code in code_list:
     if code.endswith(".cpp"):
         num_cpp += 1
-        sc = int(problem_dict[code.split(".")[0]]["score_text"].split(" ")[0])
+        try:
+            sc = int(problem_dict[code.split(".")[0]]["score_text"].split(" ")[0])
+        except:
+            continue
         if sc == 100:
             num_solved_cpp += 1
         num_score_cpp += int(sc)
@@ -95,7 +98,10 @@ for code in code_list:
         file_type = "C++"
     elif code.endswith(".c"):
         file_type = "C"
-    name = problem_dict[code.split(".")[0]]["task_name"]
+    try:
+        name = problem_dict[code.split(".")[0]]["task_name"]
+    except:
+        continue
     # write to file
     print(f'| [{code.split(".")[0]}]({code}) | {(name)} | {problem_dict[code.split(".")[0]]["score_text"]} | {file_type} | {problem_dict[code.split(".")[0]]["last_grade_date"]} |', file=f)
 f.write("\n")
