@@ -51,7 +51,7 @@ int main(){
             cin>>tmp;
             str += tmp;
         }
-        cout<<(is_virus(str)?"yes" :"no")<<'\n';
+        cout<<(is_virus(str)?"yes" :"no")<<endl;
     } 
     return 0;
 }

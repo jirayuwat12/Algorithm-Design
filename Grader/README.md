@@ -3,10 +3,10 @@
 
 | Language | Amount | Solved | Unsolved | Total Score
 | :---: | :---: | :---: | :---: | :---: |
-| C++ | 5 | 5 | 0 | 500 |
+| C++ | 6 | 5 | 1 | 510 |
 | Python | 1 | 1 | 0 | 100 |
 | C | 0 | 0 | 0 | 0 |
-| **Total** | **6**|**6** | **0**| **600** |
+| **Total** | **7**|**6** | **1**| **610** |
 
 <u>**Suggest to search by the name that on table**</u>
 
@@ -14,7 +14,8 @@
 
 | Problem | Problem name| Score | Language | Last modified |
 |---------|-------------|-------|----------|---------------|
-| [a63_q1b_virus2](a63_q1b_virus2.cpp) | Virus 2 | 100 [ PPPPPPPPPP ] | C++ | 19/01/23 16:50:17 |
+| [a60b_mid_p4_merge](a60b_mid_p4_merge.cpp) | Merge Count | 10 [ PTTTTTTTTT ] | C++ | 10:41:28 |
+| [a63_q1b_virus2](a63_q1b_virus2.cpp) | Virus 2 | 100 [ PPPPPPPPPP ] | C++ | 09:59:50 |
 | [a62_q1b_virus](a62_q1b_virus.cpp) | ตรวจจับไวรัส | 100 [ PPPPPPPPPP ] | C++ | 19/01/23 16:41:19 |
 | [ex00e5](ex00e5.cpp) | Consecutive Ones | 100 [ PPPPPPPPPP ] | C++ | 19/01/23 10:06:06 |
 | [a64_q1_permu_before](a64_q1_permu_before.cpp) | Permutation with Constraint | 100 [ PPPPPPPPPP ] | C++ | 19/01/23 11:39:20 |

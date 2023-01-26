@@ -32,7 +32,10 @@ def get_problem_info():
     problems = table.find_elements(By.TAG_NAME, "tr")
     ret = dict()
     for problem in problems[1:]:
-        [header,grade_date,score,_] = problem.text.split("\n")
+        try:
+            [header,grade_date,score,_] = problem.text.split("\n")
+        except:
+            continue
         task_id = header.split(" ")[0]
         task_name = " ".join(header.split(" ")[1:])
         number_grade = int(score.split(" ")[1])
