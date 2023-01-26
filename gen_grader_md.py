@@ -99,6 +99,7 @@ for code in code_list:
     # write to file
     print(f'| [{code.split(".")[0]}]({code}) | {(name)} | {problem_dict[code.split(".")[0]]["score_text"]} | {file_type} | {problem_dict[code.split(".")[0]]["last_grade_date"]} |', file=f)
 f.write("\n")
+f.write("Updated at " + str(datetime.datetime.now()) + "\n")
 f.close()
 
 # append to log with time stamp
