@@ -26,7 +26,11 @@ int calc(int x,int n,int k){
     if(pow(x,n) < INT_MAX){
         return ((int)pow(x,n) % k);
     }else{
-        return (calc(x,floor(n/2),k) * calc(x,n-floor(n/2),k)) %k;
+        if(floor(n/2) != n-floor(n/2)){
+            return (calc(x,floor(n/2),k) * calc(x,n-floor(n/2),k)) %k;
+        }else{
+            return pow(calc(x,floor(n/2),k),2) % k;
+        }
     }
 }
 
