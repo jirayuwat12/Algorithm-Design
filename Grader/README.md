@@ -4,9 +4,9 @@
 | Language | Amount | Solved | Unsolved | Total Score
 | :---: | :---: | :---: | :---: | :---: |
 | C++ | 12 | 10 | 2 | 1010 |
-| Python | 2 | 2 | 0 | 200 |
+| Python | 4 | 3 | 1 | 350 |
 | C | 0 | 0 | 0 | 0 |
-| **Total** | **14**|**12** | **2**| **1210** |
+| **Total** | **16**|**13** | **3**| **1360** |
 
 <u>**Suggest to search by the name that on table**</u>
 
@@ -14,6 +14,8 @@
 
 | Problem | Problem name| Score | Language | Last modified |
 |---------|-------------|-------|----------|---------------|
+| [a58_q1_triple](a58_q1_triple.py) | Triple Sum | 50 [ PPPPPTTTTT ] | Python | 15:41:50 |
+| [ex01e2](ex01e2.py) | Maximum Contiguous Sum | 100 [ PPPPPPPPPP ] | Python | 14:36:06 |
 | [ex01e4](ex01e4.cpp) | Mod Expo | 100 [ PPPPPPPPPP ] | C++ | 14:22:33 |
 | [ex01e4](ex01e4.py) | Mod Expo | 100 [ PPPPPPPPPP ] | Python | 14:22:33 |
 | [ex01m2](ex01m2.cpp) | Inversion | 100 [ PPPPPP ] | C++ | 13:46:25 |
@@ -28,4 +30,4 @@
 | [ex00e5](ex00e5.py) | Consecutive Ones | 100 [ PPPPPPPPPP ] | Python | 19/01/23 10:06:06 |
 | [ex00e4](ex00e4.cpp) | Gen Barcode | 100 [ PPPPPPPPPP ] | C++ | 19/01/23 09:55:48 |
 
-Last update : 30-01-2023 14:25
+Last update : 30-01-2023 15:42
