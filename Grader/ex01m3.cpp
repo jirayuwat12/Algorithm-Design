@@ -22,8 +22,30 @@
 #define MIS map<int,string>
 using namespace std;
 
+ll findQueue(ll t, VI &T){
+    ll q = 0;
+    REP(i,SZ(T))q+=t/T[i]+1;
+    return q;
+}
+
 int main(){
     std::ios_base::sync_with_stdio(false); std::cin.tie(0); 
-    
+    int n,a;
+    cin>>n>>a;
+    VI T(n);
+    REP(i,n)cin>>T[i];
+    REP(i,a){
+        ll q;
+        cin>>q;
+        // use binary search to find the least time t that serve q dishes
+        ll l = 0, r = 1e18;
+        while(l<r){
+            ll m = (l+r)/2;
+            if(findQueue(m,T)<q)l=m+1;
+            else r=m;
+        }
+        cout<<l<<endl;
+
+    }
     return 0;
 }
