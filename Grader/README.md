@@ -3,10 +3,10 @@
 
 | Language | Amount | Solved | Unsolved | Total Score
 | :---: | :---: | :---: | :---: | :---: |
-| C++ | 13 | 11 | 2 | 1110 |
+| C++ | 13 | 11 | 2 | 1100 |
 | Python | 4 | 4 | 0 | 400 |
 | C | 0 | 0 | 0 | 0 |
-| **Total** | **17**|**15** | **2**| **1510** |
+| **Total** | **17**|**15** | **2**| **1500** |
 
 <u>**Suggest to search by the name that on table**</u>
 
@@ -14,6 +14,7 @@
 
 | Problem | Problem name| Score | Language | Last modified |
 |---------|-------------|-------|----------|---------------|
+| [a60b_mid_p4_merge](a60b_mid_p4_merge.cpp) | Merge Count | 0 [ ----x----- ] | C++ | 14:36:40 |
 | [a58_q1_triple](a58_q1_triple.py) | Triple Sum | 100 [ PPPPPPPPPP ] | Python | 14:22:01 |
 | [a58_q1_triple](a58_q1_triple.cpp) | Triple Sum | 100 [ PPPPPPPPPP ] | C++ | 14:22:01 |
 | [ex01e2](ex01e2.py) | Maximum Contiguous Sum | 100 [ PPPPPPPPPP ] | Python | 30/01/23 14:36:06 |
@@ -23,7 +24,6 @@
 | [a62_q1a_recur](a62_q1a_recur.cpp) | Recursive Matrix | 100 [ PPPPPPPPPP ] | C++ | 30/01/23 13:40:37 |
 | [ex01e3](ex01e3.cpp) | Binary Search 2 | 100 [ PPPPP ] | C++ | 30/01/23 12:58:19 |
 | [ex02e3_bs](ex02e3_bs.cpp) | Binary Search 3 | 100 [ PPPPP ] | C++ | 26/01/23 16:38:08 |
-| [a60b_mid_p4_merge](a60b_mid_p4_merge.cpp) | Merge Count | 10 [ PTTTTTTTTT ] | C++ | 26/01/23 10:41:28 |
 | [a63_q1b_virus2](a63_q1b_virus2.cpp) | Virus 2 | 100 [ PPPPPPPPPP ] | C++ | 26/01/23 09:59:50 |
 | [a62_q1b_virus](a62_q1b_virus.cpp) | ตรวจจับไวรัส | 100 [ PPPPPPPPPP ] | C++ | 19/01/23 16:41:19 |
 | [ex00e5](ex00e5.cpp) | Consecutive Ones | 100 [ PPPPPPPPPP ] | C++ | 19/01/23 10:06:06 |
@@ -31,4 +31,4 @@
 | [ex00e5](ex00e5.py) | Consecutive Ones | 100 [ PPPPPPPPPP ] | Python | 19/01/23 10:06:06 |
 | [ex00e4](ex00e4.cpp) | Gen Barcode | 100 [ PPPPPPPPPP ] | C++ | 19/01/23 09:55:48 |
 
-Last update : 01-02-2023 14:25
+Last update : 01-02-2023 14:38

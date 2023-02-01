@@ -24,39 +24,6 @@ using namespace std;
 
 int main(){
     std::ios_base::sync_with_stdio(false); std::cin.tie(0); 
-    int n,a;
-    cin>>n>>a;
-    priority_queue<pair<ll,int>,vector<pair<ll,int>>,greater<pair<ll,int>>> q;
-    VI t(n);
-    REP(i,n) cin>>t[i];
-    for(auto i : t){
-        q.push({i,i});
-    }
-    int last_c = n;
-    REP(i,a) {
-        int c;
-        cin>>c;
-        if(c<=n) cout<<0;
-        else{
-            ll ans = -1;
-            while(last_c <= c){
-                auto temp = q.top();
-                // cout<<temp.first<<' '<<temp.second<<' '<<last_c<<'\n';
-                q.pop();
-                ans = temp.first;
-                temp.first +=  temp.second;
-                q.push(temp);
-                last_c++;
-                // cout<<last_c<<'\n';
-            }
-            cout<<ans<<'\n';
-        }
-    }
+    
     return 0;
 }
-/*
-3 4
-2 2 5
-4 5 6 30
-
-*/

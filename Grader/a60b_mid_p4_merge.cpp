@@ -22,66 +22,8 @@
 #define MIS map<int,string>
 using namespace std;
 
-template<typename T1>
-bool is_sort(T1 b,T1 e){
-    int l = *b;
-    b++;
-    while(b != e){
-        if(*b < l) return false;
-        b++;
-    }
-    return true;
-}
-
-int merge_count(const VI & t ,int l,int r ){
-    if (l != r-1 && !is_sort(t.begin()+l,t.begin()+r)){
-        return 1 + merge_count(t,l,(l+r)/2) + merge_count(t,(l+r)/2,r);
-    }else return 1;
-}
-
 int main(){
     std::ios_base::sync_with_stdio(false); std::cin.tie(0); 
-    int n,k;
-    cin>>n>>k;
-    if(k > n*log(n) || k % 2 == 0){
-        cout<<-1;
-    }else{
-        VI t(n);
-        REP(i,n) t[i] =i+1;
-        int temp = int(k / 2);
-        do{
-            if(temp -- ) continue;
-            if(merge_count(t,0,t.size()) == k){
-                REP(i,t.size()) cout<<t[i]<<' ';
-                return 0;
-            }
-        }while(next_permutation(t.begin(),t.end()));
-        cout<<-1;
-    }
+    
     return 0;
 }
-
-/*
-1 2 -> 1
-2 1 -> 3
-
-1 2 3 -> 1
-2 1 3 -> 3
-2 3 1 -> 5
-
-1 2 3 4 -> 1
-2 1 3 4 -> 3
-2 3 1 4 -> 3
-2 3 4 1 -> 5
-
-1 2 3 4 5 -> 1
-2 1 3 4 5 -> 3
-2 3 1 4 5 -> 5
-2 3 4 1 5 -> 5
-2 3 4 5 1 -> 7
-
-1 2 3 4 5 6 -> 1
-2 1 3 4 5 6 -> 5
-2 3 1 4 5 6 -> 5
-
-*/
