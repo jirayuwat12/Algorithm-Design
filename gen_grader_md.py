@@ -101,7 +101,7 @@ for code in code_list:
     try:
         name = problem_dict[code.split(".")[0]]["task_name"]
     except:
-        continue
+        name = ''
     # write to file
     print(f'| [{code.split(".")[0]}]({code}) | {(name)} | {problem_dict[code.split(".")[0]]["score_text"]} | {file_type} | {problem_dict[code.split(".")[0]]["last_grade_date"]} |', file=f)
 f.write("\n")
