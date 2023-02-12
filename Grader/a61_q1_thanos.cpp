@@ -30,15 +30,12 @@ int f(const VI & a, int l, int r, int A,int B){
     // no partail
     int min_power = A;
     if(num_hero) min_power = B * num_hero * (r-l+1);
-    cout<<l<<' '<<r<<" no part : "<<min_power<<' ';
     // partial
     if(l!=r){
         int lans = f(a,l,(l+r)/2,A,B);
         int rans = f(a,(l+r)/2+1,r,A,B);
-        cout<<"partial : "<<lans+rans;
         min_power = min(min_power,lans+rans);
     }
-    cout<<endl;
     return min_power; 
 }
 
