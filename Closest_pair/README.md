@@ -12,3 +12,8 @@
 ## Output
 
 - The distance between the closest pair of points.
+
+## Solutions
+
+- Brute force: O(n^2)
+- Divide and conquer: O(nlogn) [code](Closest_pair.py)
