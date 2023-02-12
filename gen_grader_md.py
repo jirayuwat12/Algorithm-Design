@@ -56,7 +56,10 @@ num_score_py = 0
 for code in code_list:
     if code.endswith(".py"):
         num_py += 1
-        sc = int(problem_dict[code.split(".")[0]]["score_text"].split(" ")[0])
+        try:
+            sc = int(problem_dict[code.split(".")[0]]["score_text"].split(" ")[0])
+        except:
+            sc = 0
         if sc == 100:
             num_solved_py += 1
         num_score_py += int(sc)
@@ -103,7 +106,10 @@ for code in code_list:
     except:
         name = ''
     # write to file
-    print(f'| [{code.split(".")[0]}]({code}) | {(name)} | {problem_dict[code.split(".")[0]]["score_text"]} | {file_type} | {problem_dict[code.split(".")[0]]["last_grade_date"]} |', file=f)
+    try:
+        print(f'| [{code.split(".")[0]}]({code}) | {(name)} | {problem_dict[code.split(".")[0]]["score_text"]} | {file_type} | {problem_dict[code.split(".")[0]]["last_grade_date"]} |', file=f)
+    except:
+        continue
 f.write("\n")
 # write update time in format dd-mm-yyyy hh:mm
 f.write(f'Last update : {datetime.datetime.now().strftime("%d-%m-%Y %H:%M")}\n')
