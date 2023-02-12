@@ -45,7 +45,7 @@ for code in code_list:
         try:
             sc = int(problem_dict[code.split(".")[0]]["score_text"].split(" ")[0])
         except:
-            continue
+            sc = 0
         if sc == 100:
             num_solved_cpp += 1
         num_score_cpp += int(sc)
