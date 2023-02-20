@@ -3,10 +3,10 @@
 
 | Language | Amount | Solved | Unsolved | Total Score
 | :---: | :---: | :---: | :---: | :---: |
+| Python | 17 | 11 | 6 | 1230 |
 | C++ | 15 | 12 | 3 | 1200 |
-| Python | 14 | 8 | 6 | 930 |
 | C | 0 | 0 | 0 | 0 |
-| **Total** | **29**|**20** | **9**| **2130** |
+| **Total** | **32**|**23** | **9**| **2430** |
 
 <u>**Suggest to search by the name that on table**</u>
 
@@ -14,16 +14,19 @@
 
 | Problem | Problem name| Score | Language | Last modified |
 |---------|-------------|-------|----------|---------------|
-| [a59_midp3_similar](a59_midp3_similar.py) | Similar String | 100 [ [PPPPPP][PPPPPP][PPPPPP][PPPPPP][PPPPPP][PPPPPP][PPPPPP][PPPPPP][PPPPPP][PPPPPP] ] | Python | 20:48:39 |
-| [a60_q1_matmod](a60_q1_matmod.py) | Matrix Modulo | 100 [ PPPPPPPPPP ] | Python | 20:40:55 |
-| [a59_midp4_mcsw](a59_midp4_mcsw.py) | MCS with Width Constraint | 50 [ PPPPPTTTTT ] | Python | 14:44:07 |
-| [a60_q1_number1](a60_q1_number1.py) | Number 1 | 10 [ PxxTTTTTTT ] | Python | 14:31:42 |
-| [a60b_q2_pareto](a60b_q2_pareto.py) | Pareto Frontier | 100 [ PPPPPPPPPP ] | Python | 14:15:42 |
-| [a61_q1_thanos](a61_q1_thanos.cpp) | Thanos | 0 [ ------------TTT ] | C++ | 14:06:04 |
+| [ex03e1_lcs](ex03e1_lcs.py) | Longest Common Subsequence | 100 [ PPPPPPPPPP ] | Python | 10:55:51 |
+| [ex02e2_cnk](ex02e2_cnk.py) | Binomial Coefficient | 100 [ PPPPPPPP ] | Python | 15/02/23 15:24:48 |
+| [ex02e1_fibo](ex02e1_fibo.py) | Fibonacci Number | 100 [ PPPPPPPP ] | Python | 15/02/23 13:06:24 |
+| [a59_midp3_similar](a59_midp3_similar.py) | Similar String | 100 [ [PPPPPP][PPPPPP][PPPPPP][PPPPPP][PPPPPP][PPPPPP][PPPPPP][PPPPPP][PPPPPP][PPPPPP] ] | Python | 12/02/23 20:48:39 |
+| [a60_q1_matmod](a60_q1_matmod.py) | Matrix Modulo | 100 [ PPPPPPPPPP ] | Python | 12/02/23 20:40:55 |
+| [a59_midp4_mcsw](a59_midp4_mcsw.py) | MCS with Width Constraint | 50 [ PPPPPTTTTT ] | Python | 12/02/23 14:44:07 |
+| [a60_q1_number1](a60_q1_number1.py) | Number 1 | 10 [ PxxTTTTTTT ] | Python | 12/02/23 14:31:42 |
+| [a60b_q2_pareto](a60b_q2_pareto.py) | Pareto Frontier | 100 [ PPPPPPPPPP ] | Python | 12/02/23 14:15:42 |
+| [a61_q1_thanos](a61_q1_thanos.cpp) | Thanos | 0 [ ------------TTT ] | C++ | 12/02/23 14:06:04 |
 | [ex02h1_closest](ex02h1_closest.py) | Closest Pair | 70 [ PPPPPPTPTT ] | Python | 10/02/23 14:37:30 |
-| [a57_m4_gaa](a57_m4_gaa.py) | G A A | 0 [ [---][---][---][---][---][---][---][---][---][---] ] | Python | 15:21:20 |
-| [ex01h1](ex01h1.py) | Self Describing Sequence | 0 [ ---------- ] | Python | 15:21:54 |
-| [a58_m3_hanamard](a58_m3_hanamard.cpp) | Hanamard | 0 [ ------TTTT ] | C++ | 15:20:26 |
+| [a57_m4_gaa](a57_m4_gaa.py) | G A A | 0 [ [---][---][---][---][---][---][---][---][---][---] ] | Python | 12/02/23 15:21:20 |
+| [ex01h1](ex01h1.py) | Self Describing Sequence | 0 [ ---------- ] | Python | 12/02/23 15:21:54 |
+| [a58_m3_hanamard](a58_m3_hanamard.cpp) | Hanamard | 0 [ ------TTTT ] | C++ | 12/02/23 15:20:26 |
 | [ex01m1](ex01m1.py) | Tiling | 100 [ PPPPPPPPPP ] | Python | 01/02/23 17:33:53 |
 | [ex01m3](ex01m3.cpp) | Larger Restaurant | 100 [ PPPPPPPPPP ] | C++ | 01/02/23 15:28:48 |
 | [a60b_mid_p4_merge](a60b_mid_p4_merge.cpp) | Merge Count | 0 [ ----x----- ] | C++ | 01/02/23 14:36:40 |
@@ -43,4 +46,4 @@
 | [ex00e5](ex00e5.py) | Consecutive Ones | 100 [ PPPPPPPPPP ] | Python | 19/01/23 10:06:06 |
 | [ex00e4](ex00e4.cpp) | Gen Barcode | 100 [ PPPPPPPPPP ] | C++ | 19/01/23 09:55:48 |
 
-Last update : 12-02-2023 21:32
+Last update : 20-02-2023 19:25
