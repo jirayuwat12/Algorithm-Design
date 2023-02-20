@@ -12,8 +12,10 @@ const_username = secret["username"]
 const_password = secret["password"]
 
 f.close()
-
-driver = webdriver.Edge()
+# opne in headless mode with edge
+options = webdriver.EdgeOptions()
+options.add_argument("headless")
+driver = webdriver.Edge(options=options)
 driver.get("https://nattee.net/grader/main/list")
 # get username and password
 username = driver.find_element(By.NAME, "login")
