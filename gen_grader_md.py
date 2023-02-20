@@ -130,4 +130,4 @@ with open('log.log', 'a') as f:
 # notice with windows notification
 import win10toast
 toaster = win10toast.ToastNotifier()
-toaster.show_toast("Update", "Update complete", icon_path="icon.ico", duration=5)
+toaster.show_toast("Update", "Update complete", duration=5)
