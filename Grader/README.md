@@ -3,10 +3,10 @@
 
 | Language | Amount | Solved | Unsolved | Total Score
 | :---: | :---: | :---: | :---: | :---: |
-| Python | 17 | 11 | 6 | 1230 |
+| Python | 21 | 14 | 7 | 1530 |
 | C++ | 15 | 12 | 3 | 1200 |
 | C | 0 | 0 | 0 | 0 |
-| **Total** | **32**|**23** | **9**| **2430** |
+| **Total** | **36**|**26** | **10**| **2730** |
 
 <u>**Suggest to search by the name that on table**</u>
 
@@ -14,7 +14,10 @@
 
 | Problem | Problem name| Score | Language | Last modified |
 |---------|-------------|-------|----------|---------------|
-| [ex03e1_lcs](ex03e1_lcs.py) | Longest Common Subsequence | 100 [ PPPPPPPPPP ] | Python | 10:55:51 |
+| [ex03m1_billboard](ex03m1_billboard.py) | Advertising Billboard | 100 [ PPPPPPPPPP ] | Python | 16:59:08 |
+| [ex03e3_coin](ex03e3_coin.py) | Coin Change | 100 [ PPPPPPPPPP ] | Python | 11:29:09 |
+| [a59_q1_quicksum](a59_q1_quicksum.py) | Quick Sum | 100 [ PPPPPPPPPP ] | Python | 21/02/23 15:14:30 |
+| [ex03e1_lcs](ex03e1_lcs.py) | Longest Common Subsequence | 100 [ PPPPPPPPPP ] | Python | 20/02/23 10:55:51 |
 | [ex02e2_cnk](ex02e2_cnk.py) | Binomial Coefficient | 100 [ PPPPPPPP ] | Python | 15/02/23 15:24:48 |
 | [ex02e1_fibo](ex02e1_fibo.py) | Fibonacci Number | 100 [ PPPPPPPP ] | Python | 15/02/23 13:06:24 |
 | [a59_midp3_similar](a59_midp3_similar.py) | Similar String | 100 [ [PPPPPP][PPPPPP][PPPPPP][PPPPPP][PPPPPP][PPPPPP][PPPPPP][PPPPPP][PPPPPP][PPPPPP] ] | Python | 12/02/23 20:48:39 |
@@ -46,4 +49,4 @@
 | [ex00e5](ex00e5.py) | Consecutive Ones | 100 [ PPPPPPPPPP ] | Python | 19/01/23 10:06:06 |
 | [ex00e4](ex00e4.cpp) | Gen Barcode | 100 [ PPPPPPPPPP ] | C++ | 19/01/23 09:55:48 |
 
-Last update : 20-02-2023 19:29
+Last update : 22-02-2023 16:59

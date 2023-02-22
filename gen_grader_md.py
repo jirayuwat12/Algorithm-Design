@@ -127,7 +127,3 @@ with open('log.log', 'a') as f:
     print(f'Number of unsolved problem : {num_c + num_cpp + num_py - num_solved_c - num_solved_cpp - num_solved_py}', file=f)
     print('', file=f)
 
-# notice with windows notification
-import win10toast
-toaster = win10toast.ToastNotifier()
-toaster.show_toast("Update", "Update complete", duration=5)
