@@ -3,10 +3,10 @@
 
 | Language | Amount | Solved | Unsolved | Total Score
 | :---: | :---: | :---: | :---: | :---: |
-| Python | 21 | 14 | 7 | 1530 |
+| Python | 24 | 16 | 8 | 1730 |
 | C++ | 15 | 12 | 3 | 1200 |
 | C | 0 | 0 | 0 | 0 |
-| **Total** | **36**|**26** | **10**| **2730** |
+| **Total** | **39**|**28** | **11**| **2930** |
 
 <u>**Suggest to search by the name that on table**</u>
 
@@ -14,6 +14,8 @@
 
 | Problem | Problem name| Score | Language | Last modified |
 |---------|-------------|-------|----------|---------------|
+| [a60b_q1_diagsum](a60b_q1_diagsum.py) | Diagonal Sum | 100 [ PPPPPPPPPP ] | Python | 21:55:46 |
+| [ex02m1_triangle](ex02m1_triangle.py) | Number Triangles | 100 [ PPPPPPPPPP ] | Python | 21:31:28 |
 | [ex03m1_billboard](ex03m1_billboard.py) | Advertising Billboard | 100 [ PPPPPPPPPP ] | Python | 16:59:08 |
 | [ex03e3_coin](ex03e3_coin.py) | Coin Change | 100 [ PPPPPPPPPP ] | Python | 11:29:09 |
 | [a59_q1_quicksum](a59_q1_quicksum.py) | Quick Sum | 100 [ PPPPPPPPPP ] | Python | 21/02/23 15:14:30 |
@@ -49,4 +51,4 @@
 | [ex00e5](ex00e5.py) | Consecutive Ones | 100 [ PPPPPPPPPP ] | Python | 19/01/23 10:06:06 |
 | [ex00e4](ex00e4.cpp) | Gen Barcode | 100 [ PPPPPPPPPP ] | C++ | 19/01/23 09:55:48 |
 
-Last update : 22-02-2023 16:59
+Last update : 22-02-2023 22:20
