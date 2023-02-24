@@ -104,5 +104,8 @@ if __name__ == '__main__':
         print('', file=f)
 
     if line_bot_api != None:
-        message = f'gen_codeforces_md.py : {datetime.datetime.now()}\nNumber of accepted problem : {len(accepted_list)}\nNumber of on-going problem : {len(ongoing_list)}\nTotal : {len(accepted_list) + len(ongoing_list)}'
-        line_bot_api.push_message('Ua1b6a0f6d8e6c0a6a4b6d8e0f1b9a4b6', TextSendMessage(text=message))
+        message = f'Update problem list in CodeForces\n'
+        message += f'Number of accepted problem : {len(accepted_list)}\n'
+        message += f'Number of on-going problem : {len(ongoing_list)}\n'
+        message += f'Total : {len(accepted_list) + len(ongoing_list)}\n'
+        line_bot_api.push_message('Ua1b6a0f6d8e6c0a6a4b6d8e0f1b9a4b6', TextSendMessage(text=message[:-1]))
