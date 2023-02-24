@@ -139,7 +139,8 @@ with open('log.log', 'a') as f:
 
 # send message to line
 if line_bot_api != None:
-    message = f'Update problem list in grader\n'
+    message = '[Algorithm Design CU class]\n'
+    message += f'Update problem list in grader\n'
     message += f'Number of problem : {len(code_list)}\n'
     message += f'Number of C problem : {num_c}\n'
     message += f'Number of C++ problem : {num_cpp}\n'

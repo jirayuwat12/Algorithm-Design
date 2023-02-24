@@ -104,7 +104,8 @@ if __name__ == '__main__':
         print('', file=f)
 
     if line_bot_api != None:
-        message = f'Update problem list in CodeForces\n'
+        message = '[Algorithm Design CU class]\n'
+        message += f'Update problem list in CodeForces\n'
         message += f'Number of accepted problem : {len(accepted_list)}\n'
         message += f'Number of on-going problem : {len(ongoing_list)}\n'
         message += f'Total : {len(accepted_list) + len(ongoing_list)}\n'
