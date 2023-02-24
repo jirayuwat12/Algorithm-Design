@@ -108,4 +108,5 @@ if __name__ == '__main__':
         message += f'Number of accepted problem : {len(accepted_list)}\n'
         message += f'Number of on-going problem : {len(ongoing_list)}\n'
         message += f'Total : {len(accepted_list) + len(ongoing_list)}\n'
-        line_bot_api.push_message('Ua1b6a0f6d8e6c0a6a4b6d8e0f1b9a4b6', TextSendMessage(text=message[:-1]))
+        line_user_id = r'U6277d126256566afc767481bbd0a10b9'
+        line_bot_api.push_message(line_user_id, TextSendMessage(text=message[:-1]))
