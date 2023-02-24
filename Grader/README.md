@@ -3,10 +3,10 @@
 
 | Language | Amount | Solved | Unsolved | Total Score
 | :---: | :---: | :---: | :---: | :---: |
-| Python | 27 | 19 | 8 | 2030 |
+| Python | 30 | 21 | 9 | 2240 |
 | C++ | 15 | 12 | 3 | 1200 |
 | C | 0 | 0 | 0 | 0 |
-| **Total** | **42**|**31** | **11**| **3230** |
+| **Total** | **45**|**33** | **12**| **3440** |
 
 <u>**Suggest to search by the name that on table**</u>
 
@@ -14,9 +14,12 @@
 
 | Problem | Problem name| Score | Language | Last modified |
 |---------|-------------|-------|----------|---------------|
-| [a60a_midp3_bigger](a60a_midp3_bigger.py) | Bigger Billboard | 100 [ PPPPPPPPPP ] | Python | 19:41:45 |
-| [ex03m2_lis](ex03m2_lis.py) | Longest Increasing Subsequence | 100 [ PPPPPPPPPP ] | Python | 19:11:21 |
-| [a59_midp1_lcs](a59_midp1_lcs.py) | Longest Common Subsequence (text) | 100 [ PPPPPPPPPP ] | Python | 17:30:48 |
+| [a60b_mid_p3_divide](a60b_mid_p3_divide.py) | Dividing Rock | 10 [ ----P----- ] | Python | 13:27:19 |
+| [a60b_mid_p2_rope](a60b_mid_p2_rope.py) | Rope | 100 [ PPPPPPPPPP ] | Python | 12:49:15 |
+| [a60a_midp4_walk](a60a_midp4_walk.py) | Walk in the Forest | 100 [ PPPPPPPPPP ] | Python | 23/02/23 19:51:16 |
+| [a60a_midp3_bigger](a60a_midp3_bigger.py) | Bigger Billboard | 100 [ PPPPPPPPPP ] | Python | 23/02/23 19:41:45 |
+| [ex03m2_lis](ex03m2_lis.py) | Longest Increasing Subsequence | 100 [ PPPPPPPPPP ] | Python | 23/02/23 19:11:21 |
+| [a59_midp1_lcs](a59_midp1_lcs.py) | Longest Common Subsequence (text) | 100 [ PPPPPPPPPP ] | Python | 23/02/23 17:30:48 |
 | [a60b_q1_diagsum](a60b_q1_diagsum.py) | Diagonal Sum | 100 [ PPPPPPPPPP ] | Python | 22/02/23 21:55:46 |
 | [ex02m1_triangle](ex02m1_triangle.py) | Number Triangles | 100 [ PPPPPPPPPP ] | Python | 22/02/23 21:31:28 |
 | [ex03m1_billboard](ex03m1_billboard.py) | Advertising Billboard | 100 [ PPPPPPPPPP ] | Python | 22/02/23 16:59:08 |
@@ -54,4 +57,4 @@
 | [ex00e5](ex00e5.py) | Consecutive Ones | 100 [ PPPPPPPPPP ] | Python | 19/01/23 10:06:06 |
 | [ex00e4](ex00e4.cpp) | Gen Barcode | 100 [ PPPPPPPPPP ] | C++ | 19/01/23 09:55:48 |
 
-Last update : 23-02-2023 19:43
+Last update : 24-02-2023 23:36

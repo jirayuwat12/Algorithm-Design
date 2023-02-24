@@ -9,7 +9,7 @@ from linebot.models import TextSendMessage
 line_bot_api = None
 with open("secret.json", "r") as f:
     secret = json.load(f)
-    access_token = secret["access_token"]
+    access_token = secret["line_bot_channel_access_token"]
     line_bot_api = LineBotApi(access_token)
 f.close()
 
