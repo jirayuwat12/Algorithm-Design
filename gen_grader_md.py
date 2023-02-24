@@ -1,7 +1,18 @@
 import datetime
 import os
 import time
+import json
 from selenium_utils import get_problem_info
+from linebot import LineBotApi
+from linebot.models import TextSendMessage
+# import 
+line_bot_api = None
+with open("secret.json", "r") as f:
+    secret = json.load(f)
+    access_token = secret["access_token"]
+    line_bot_api = LineBotApi(access_token)
+f.close()
+
 f = open("./Grader/README.md", 'w', encoding="utf-8")
 
 # write header
@@ -127,3 +138,14 @@ with open('log.log', 'a') as f:
     print(f'Number of unsolved problem : {num_c + num_cpp + num_py - num_solved_c - num_solved_cpp - num_solved_py}', file=f)
     print('', file=f)
 
+# send message to line
+if line_bot_api != None:
+    message = f'Update problem list\n'
+    message += f'Number of problem : {len(code_list)}\n'
+    message += f'Number of C problem : {num_c}\n'
+    message += f'Number of C++ problem : {num_cpp}\n'
+    message += f'Number of Python problem : {num_py}\n'
+    message += f'Number of solved problem : {num_solved_c + num_solved_cpp + num_solved_py}\n'
+    message += f'Number of unsolved problem : {num_c + num_cpp + num_py - num_solved_c - num_solved_cpp - num_solved_py}\n'
+    line_user_id = r'U6277d126256566afc767481bbd0a10b9'
+    line_bot_api.push_message(line_user_id, TextSendMessage(text=message))
