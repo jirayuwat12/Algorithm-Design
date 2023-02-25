@@ -3,10 +3,10 @@
 
 | Language | Amount | Solved | Unsolved | Total Score
 | :---: | :---: | :---: | :---: | :---: |
-| Python | 30 | 21 | 9 | 2240 |
+| Python | 32 | 24 | 8 | 2530 |
 | C++ | 15 | 12 | 3 | 1200 |
 | C | 0 | 0 | 0 | 0 |
-| **Total** | **45**|**33** | **12**| **3440** |
+| **Total** | **47**|**36** | **11**| **3730** |
 
 <u>**Suggest to search by the name that on table**</u>
 
@@ -14,8 +14,10 @@
 
 | Problem | Problem name| Score | Language | Last modified |
 |---------|-------------|-------|----------|---------------|
-| [a60b_mid_p3_divide](a60b_mid_p3_divide.py) | Dividing Rock | 10 [ ----P----- ] | Python | 13:27:19 |
-| [a60b_mid_p2_rope](a60b_mid_p2_rope.py) | Rope | 100 [ PPPPPPPPPP ] | Python | 12:49:15 |
+| [a60b_mid_p3_divide](a60b_mid_p3_divide.py) | Dividing Rock | 100 [ PPPPPPPPPP ] | Python | 17:22:21 |
+| [a62_q1b_chocolate](a62_q1b_chocolate.py) | แบ่งช็อกโกแลต | 100 [ PPPPPPPPPP ] | Python | 16:56:49 |
+| [a62_q1a_jumping](a62_q1a_jumping.py) | Jumping | 100 [ PPPPPPPPPP ] | Python | 16:39:54 |
+| [a60b_mid_p2_rope](a60b_mid_p2_rope.py) | Rope | 100 [ PPPPPPPPPP ] | Python | 24/02/23 12:49:15 |
 | [a60a_midp4_walk](a60a_midp4_walk.py) | Walk in the Forest | 100 [ PPPPPPPPPP ] | Python | 23/02/23 19:51:16 |
 | [a60a_midp3_bigger](a60a_midp3_bigger.py) | Bigger Billboard | 100 [ PPPPPPPPPP ] | Python | 23/02/23 19:41:45 |
 | [ex03m2_lis](ex03m2_lis.py) | Longest Increasing Subsequence | 100 [ PPPPPPPPPP ] | Python | 23/02/23 19:11:21 |
@@ -57,4 +59,4 @@
 | [ex00e5](ex00e5.py) | Consecutive Ones | 100 [ PPPPPPPPPP ] | Python | 19/01/23 10:06:06 |
 | [ex00e4](ex00e4.cpp) | Gen Barcode | 100 [ PPPPPPPPPP ] | C++ | 19/01/23 09:55:48 |
 
-Last update : 24-02-2023 23:43
+Last update : 25-02-2023 17:23
