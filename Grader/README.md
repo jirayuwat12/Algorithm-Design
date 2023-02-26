@@ -3,10 +3,10 @@
 
 | Language | Amount | Solved | Unsolved | Total Score
 | :---: | :---: | :---: | :---: | :---: |
-| Python | 34 | 25 | 9 | 2713 |
+| Python | 36 | 26 | 10 | 2813 |
 | C++ | 15 | 12 | 3 | 1200 |
 | C | 0 | 0 | 0 | 0 |
-| **Total** | **49**|**37** | **12**| **3913** |
+| **Total** | **51**|**38** | **13**| **4013** |
 
 <u>**Suggest to search by the name that on table**</u>
 
@@ -14,6 +14,7 @@
 
 | Problem | Problem name| Score | Language | Last modified |
 |---------|-------------|-------|----------|---------------|
+| [a63_q1a_buffet](a63_q1a_buffet.py) | Buffet Line | 100 [ PPPPPPPPPP ] | Python | 19:54:35 |
 | [a63_q1a_101](a63_q1a_101.py) | Bit String w/o 101 | 83 [ PPPPPPPPPPxx ] | Python | 16:30:57 |
 | [a60a_midp1_knapsack](a60a_midp1_knapsack.py) | Knapsack Items | 100 [ PPPPPPPPPP ] | Python | 25/02/23 20:37:54 |
 | [a60b_mid_p3_divide](a60b_mid_p3_divide.py) | Dividing Rock | 100 [ PPPPPPPPPP ] | Python | 25/02/23 17:22:21 |
@@ -61,4 +62,4 @@
 | [ex00e5](ex00e5.py) | Consecutive Ones | 100 [ PPPPPPPPPP ] | Python | 19/01/23 10:06:06 |
 | [ex00e4](ex00e4.cpp) | Gen Barcode | 100 [ PPPPPPPPPP ] | C++ | 19/01/23 09:55:48 |
 
-Last update : 26-02-2023 17:01
+Last update : 26-02-2023 20:11
