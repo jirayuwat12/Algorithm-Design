@@ -3,10 +3,10 @@
 
 | Language | Amount | Solved | Unsolved | Total Score
 | :---: | :---: | :---: | :---: | :---: |
-| Python | 36 | 26 | 10 | 2813 |
+| Python | 37 | 27 | 10 | 2913 |
 | C++ | 15 | 12 | 3 | 1200 |
 | C | 0 | 0 | 0 | 0 |
-| **Total** | **51**|**38** | **13**| **4013** |
+| **Total** | **52**|**39** | **13**| **4113** |
 
 <u>**Suggest to search by the name that on table**</u>
 
@@ -14,8 +14,9 @@
 
 | Problem | Problem name| Score | Language | Last modified |
 |---------|-------------|-------|----------|---------------|
-| [a63_q1a_buffet](a63_q1a_buffet.py) | Buffet Line | 100 [ PPPPPPPPPP ] | Python | 19:54:35 |
-| [a63_q1a_101](a63_q1a_101.py) | Bit String w/o 101 | 83 [ PPPPPPPPPPxx ] | Python | 16:30:57 |
+| [ex05m1_cycle](ex05m1_cycle.py) | Detecting Cycle | 100 [ PPPPPPPPPP ] | Python | 15:58:42 |
+| [a63_q1a_buffet](a63_q1a_buffet.py) | Buffet Line | 100 [ PPPPPPPPPP ] | Python | 26/02/23 19:54:35 |
+| [a63_q1a_101](a63_q1a_101.py) | Bit String w/o 101 | 83 [ PPPPPPPPPPxx ] | Python | 26/02/23 16:30:57 |
 | [a60a_midp1_knapsack](a60a_midp1_knapsack.py) | Knapsack Items | 100 [ PPPPPPPPPP ] | Python | 25/02/23 20:37:54 |
 | [a60b_mid_p3_divide](a60b_mid_p3_divide.py) | Dividing Rock | 100 [ PPPPPPPPPP ] | Python | 25/02/23 17:22:21 |
 | [a62_q1b_chocolate](a62_q1b_chocolate.py) | แบ่งช็อกโกแลต | 100 [ PPPPPPPPPP ] | Python | 25/02/23 16:56:49 |
@@ -51,7 +52,7 @@
 | [ex01e2](ex01e2.py) | Maximum Contiguous Sum | 100 [ PPPPPPPPPP ] | Python | 30/01/23 14:36:06 |
 | [ex01e4](ex01e4.cpp) | Mod Expo | 100 [ PPPPPPPPPP ] | C++ | 30/01/23 14:22:33 |
 | [ex01e4](ex01e4.py) | Mod Expo | 100 [ PPPPPPPPPP ] | Python | 30/01/23 14:22:33 |
-| [ex01m2](ex01m2.cpp) | Inversion | 100 [ PPPPPP ] | C++ | 15:44:35 |
+| [ex01m2](ex01m2.cpp) | Inversion | 100 [ PPPPPP ] | C++ | 26/02/23 15:44:35 |
 | [a62_q1a_recur](a62_q1a_recur.cpp) | Recursive Matrix | 100 [ PPPPPPPPPP ] | C++ | 30/01/23 13:40:37 |
 | [ex01e3](ex01e3.cpp) | Binary Search 2 | 100 [ PPPPP ] | C++ | 30/01/23 12:58:19 |
 | [ex02e3_bs](ex02e3_bs.cpp) | Binary Search 3 | 100 [ PPPPP ] | C++ | 26/01/23 16:38:08 |
@@ -62,4 +63,4 @@
 | [ex00e5](ex00e5.py) | Consecutive Ones | 100 [ PPPPPPPPPP ] | Python | 19/01/23 10:06:06 |
 | [ex00e4](ex00e4.cpp) | Gen Barcode | 100 [ PPPPPPPPPP ] | C++ | 19/01/23 09:55:48 |
 
-Last update : 26-02-2023 20:11
+Last update : 17-03-2023 16:01
