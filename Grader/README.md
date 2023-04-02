@@ -3,10 +3,10 @@
 
 | Language | Amount | Solved | Unsolved | Total Score
 | :---: | :---: | :---: | :---: | :---: |
-| Python | 37 | 27 | 10 | 2913 |
+| Python | 38 | 28 | 10 | 3013 |
 | C++ | 15 | 12 | 3 | 1200 |
 | C | 0 | 0 | 0 | 0 |
-| **Total** | **52**|**39** | **13**| **4113** |
+| **Total** | **53**|**40** | **13**| **4213** |
 
 <u>**Suggest to search by the name that on table**</u>
 
@@ -14,7 +14,8 @@
 
 | Problem | Problem name| Score | Language | Last modified |
 |---------|-------------|-------|----------|---------------|
-| [ex05m1_cycle](ex05m1_cycle.py) | Detecting Cycle | 100 [ PPPPPPPPPP ] | Python | 15:58:42 |
+| [ex05e1_shortest](ex05e1_shortest.py) | Shortest Path in Grid | 100 [ PPPPPPPPPP ] | Python | 14:18:56 |
+| [ex05m1_cycle](ex05m1_cycle.py) | Detecting Cycle | 100 [ PPPPPPPPPP ] | Python | 17/03/23 15:58:42 |
 | [a63_q1a_buffet](a63_q1a_buffet.py) | Buffet Line | 100 [ PPPPPPPPPP ] | Python | 26/02/23 19:54:35 |
 | [a63_q1a_101](a63_q1a_101.py) | Bit String w/o 101 | 83 [ PPPPPPPPPPxx ] | Python | 26/02/23 16:30:57 |
 | [a60a_midp1_knapsack](a60a_midp1_knapsack.py) | Knapsack Items | 100 [ PPPPPPPPPP ] | Python | 25/02/23 20:37:54 |
@@ -63,4 +64,4 @@
 | [ex00e5](ex00e5.py) | Consecutive Ones | 100 [ PPPPPPPPPP ] | Python | 19/01/23 10:06:06 |
 | [ex00e4](ex00e4.cpp) | Gen Barcode | 100 [ PPPPPPPPPP ] | C++ | 19/01/23 09:55:48 |
 
-Last update : 17-03-2023 16:01
+Last update : 02-04-2023 14:21
