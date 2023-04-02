@@ -1,4 +1,5 @@
 import sys
+
 input = sys.stdin.readline
 
 [r,c] = list(map(int, input().split()))
@@ -28,5 +29,7 @@ def BFS(row = 0,col = 0):
         if j+1 < c and m[i][j+1] == '.' and (i,j+1) not in visited:
             q.append((d+1,i,j+1))
     return -1
+
+
 
 print(BFS())

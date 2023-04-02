@@ -6,6 +6,7 @@ g = graph.get_connected_graph(5, 0.6, weighted=True)
 def kruskals(graph):
     __parent = dict()
     __rank = dict()
+
     for i in graph:
         __parent[i] = i
         __rank[i] = 0
@@ -27,10 +28,12 @@ def kruskals(graph):
     for _ in range(len(graph) - 2):
         i = 0
         while True:
+
             w, u, v = edge_list[i]
             pru = __parent[u]
             while pru != __parent[pru]:
                 pru = __parent[pru]
+
             prv = __parent[v]
             while prv != __parent[prv]:
                 prv = __parent[prv]
@@ -40,8 +43,10 @@ def kruskals(graph):
             else:
                 ret[u].append((v, w))
                 # union parent u and v
+
                 if __rank[pru] > __rank[prv]:
                     __parent[prv] = pru
+                    
                 elif __rank[prv] > __rank[pru]:
                     __parent[pru] = prv
                 else:
