@@ -18,13 +18,13 @@ def BFS():
     ret = 0
     while len(q):
         d,u = q.pop(0)
-        visited[u] = 1
         if d == k :
             ret +=1
             continue
         d+=1
         for v in g[u]:
             if v not in visited:
+                visited[v] = 1
                 q.append((d,v))
     return ret
 

@@ -3,10 +3,10 @@
 
 | Language | Amount | Solved | Unsolved | Total Score
 | :---: | :---: | :---: | :---: | :---: |
-| Python | 44 | 31 | 13 | 3453 |
+| Python | 55 | 35 | 20 | 4126 |
 | C++ | 15 | 12 | 3 | 1200 |
 | C | 0 | 0 | 0 | 0 |
-| **Total** | **59**|**43** | **16**| **4653** |
+| **Total** | **70**|**47** | **23**| **5326** |
 
 <u>**Suggest to search by the name that on table**</u>
 
@@ -14,13 +14,23 @@
 
 | Problem | Problem name| Score | Language | Last modified |
 |---------|-------------|-------|----------|---------------|
-| [a59_q3_hole](a59_q3_hole.py) | Hole | 80 [ PPPPPTPPPT ] | Python | 20:04:59 |
-| [a60b_q3_perimeter](a60b_q3_perimeter.py) | Perimeter | 60 [ PPPPP--P-- ] | Python | 17:11:53 |
-| [a62_q2a_pandemic](a62_q2a_pandemic.py) | Pandemic | 100 [ PPPPPPPPPP ] | Python | 16:47:18 |
-| [a60a_q3_component](a60a_q3_component.py) | Connected Component | 100 [ PPPPPPPPPP ] | Python | 16:29:27 |
-| [ex05m2_connection](ex05m2_connection.py) | Connection | 0 [ ---------- ] | Python | 16:16:32 |
-| [a62_q2a_line_graph](a62_q2a_line_graph.py) | กราฟเส้นตรง | 100 [ PPPPPPPPPP ] | Python | 16:01:08 |
-| [ex05e1_shortest](ex05e1_shortest.py) | Shortest Path in Grid | 100 [ PPPPPPPPPP ] | Python | 14:18:56 |
+| [ex07e2_iss](ex07e2_iss.py) | Increasing Sequence Sum | 90 [ PPPPPPPPPT ] | Python | 19:43:03 |
+| [ex07e1_nqueen](ex07e1_nqueen.py) | N Queen | 40 [ PPPPTTTTTT ] | Python | 19:29:14 |
+| [ex07e3_coloring](ex07e3_coloring.py) | Graph Coloring | 20 [ PPTTTTTTTT ] | Python | 16:16:33 |
+| [a60a_q3_xor_road](a60a_q3_xor_road.py) | XOR Road | 40 [ PPPPTxxxxx ] | Python | 13:44:44 |
+| [ex07m1_knapsack](ex07m1_knapsack.py) | 0/1 Knapsac with Real Number | 80 [ PPPPPTPTPP ] | Python | 16:52:42 |
+| [ex07m2_15puzzle](ex07m2_15puzzle.py) | 15 Puzzle | 30 [ PPP------- ] | Python | 29/04/23 14:31:32 |
+| [a57_f5_diceroll](a57_f5_diceroll.py) | Dice Roll | 33 [ PPT-TPPTTTTT ] | Python | 10/04/23 16:18:55 |
+| [ex06e1_cable](ex06e1_cable.py) | Cable Company | 100 [ PPPPPPPPPP ] | Python | 02/04/23 23:16:11 |
+| [a64_q3_shortest_start](a64_q3_shortest_start.py) | Shortest Start | 100 [ PPPPPPPPPPPPPPPPPPPP ] | Python | 02/04/23 22:38:11 |
+| [a64_q3_wildfire](a64_q3_wildfire.py) | Wildfire | 100 [ PPPPPPPPPP ] | Python | 02/04/23 22:25:03 |
+| [a60b_q3_perimeter](a60b_q3_perimeter.py) | Perimeter | 100 [ PPPPPPPPPP ] | Python | 02/04/23 21:29:28 |
+| [a59_q3_hole](a59_q3_hole.py) | Hole | 80 [ PPPPPTPPPT ] | Python | 02/04/23 20:04:59 |
+| [a62_q2a_pandemic](a62_q2a_pandemic.py) | Pandemic | 100 [ PPPPPPPPPP ] | Python | 02/04/23 16:47:18 |
+| [a60a_q3_component](a60a_q3_component.py) | Connected Component | 100 [ PPPPPPPPPP ] | Python | 02/04/23 16:29:27 |
+| [ex05m2_connection](ex05m2_connection.py) | Connection | 0 [ ---------- ] | Python | 02/04/23 21:22:21 |
+| [a62_q2a_line_graph](a62_q2a_line_graph.py) | กราฟเส้นตรง | 100 [ PPPPPPPPPP ] | Python | 02/04/23 16:01:08 |
+| [ex05e1_shortest](ex05e1_shortest.py) | Shortest Path in Grid | 100 [ PPPPPPPPPP ] | Python | 02/04/23 14:18:56 |
 | [ex05m1_cycle](ex05m1_cycle.py) | Detecting Cycle | 100 [ PPPPPPPPPP ] | Python | 17/03/23 15:58:42 |
 | [a63_q1a_buffet](a63_q1a_buffet.py) | Buffet Line | 100 [ PPPPPPPPPP ] | Python | 26/02/23 19:54:35 |
 | [a63_q1a_101](a63_q1a_101.py) | Bit String w/o 101 | 83 [ PPPPPPPPPPxx ] | Python | 26/02/23 16:30:57 |
@@ -70,4 +80,4 @@
 | [ex00e5](ex00e5.py) | Consecutive Ones | 100 [ PPPPPPPPPP ] | Python | 19/01/23 10:06:06 |
 | [ex00e4](ex00e4.cpp) | Gen Barcode | 100 [ PPPPPPPPPP ] | C++ | 19/01/23 09:55:48 |
 
-Last update : 02-04-2023 20:14
+Last update : 30-04-2023 19:46
