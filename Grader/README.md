@@ -3,10 +3,10 @@
 
 | Language | Amount | Solved | Unsolved | Total Score
 | :---: | :---: | :---: | :---: | :---: |
-| Python | 55 | 35 | 20 | 4126 |
+| Python | 56 | 35 | 21 | 4166 |
 | C++ | 15 | 12 | 3 | 1200 |
 | C | 0 | 0 | 0 | 0 |
-| **Total** | **70**|**47** | **23**| **5326** |
+| **Total** | **71**|**47** | **24**| **5366** |
 
 <u>**Suggest to search by the name that on table**</u>
 
@@ -14,11 +14,12 @@
 
 | Problem | Problem name| Score | Language | Last modified |
 |---------|-------------|-------|----------|---------------|
-| [ex07e2_iss](ex07e2_iss.py) | Increasing Sequence Sum | 90 [ PPPPPPPPPT ] | Python | 19:43:03 |
-| [ex07e1_nqueen](ex07e1_nqueen.py) | N Queen | 40 [ PPPPTTTTTT ] | Python | 19:29:14 |
-| [ex07e3_coloring](ex07e3_coloring.py) | Graph Coloring | 20 [ PPTTTTTTTT ] | Python | 16:16:33 |
-| [a60a_q3_xor_road](a60a_q3_xor_road.py) | XOR Road | 40 [ PPPPTxxxxx ] | Python | 13:44:44 |
-| [ex07m1_knapsack](ex07m1_knapsack.py) | 0/1 Knapsac with Real Number | 80 [ PPPPPTPTPP ] | Python | 16:52:42 |
+| [a64_q4_path_sum](a64_q4_path_sum.py) | Path Sum | 40 [ PPPPTTTTTT ] | Python | 30/04/23 20:30:39 |
+| [ex07e2_iss](ex07e2_iss.py) | Increasing Sequence Sum | 90 [ PPPPPPPPPT ] | Python | 30/04/23 19:43:03 |
+| [ex07e1_nqueen](ex07e1_nqueen.py) | N Queen | 40 [ PPPPTTTTTT ] | Python | 30/04/23 19:29:14 |
+| [ex07e3_coloring](ex07e3_coloring.py) | Graph Coloring | 20 [ PPTTTTTTTT ] | Python | 30/04/23 16:16:33 |
+| [a60a_q3_xor_road](a60a_q3_xor_road.py) | XOR Road | 40 [ PPPPTxxxxx ] | Python | 30/04/23 13:44:44 |
+| [ex07m1_knapsack](ex07m1_knapsack.py) | 0/1 Knapsac with Real Number | 80 [ PPPPPTPTPP ] | Python | 30/04/23 16:52:42 |
 | [ex07m2_15puzzle](ex07m2_15puzzle.py) | 15 Puzzle | 30 [ PPP------- ] | Python | 29/04/23 14:31:32 |
 | [a57_f5_diceroll](a57_f5_diceroll.py) | Dice Roll | 33 [ PPT-TPPTTTTT ] | Python | 10/04/23 16:18:55 |
 | [ex06e1_cable](ex06e1_cable.py) | Cable Company | 100 [ PPPPPPPPPP ] | Python | 02/04/23 23:16:11 |
@@ -80,4 +81,4 @@
 | [ex00e5](ex00e5.py) | Consecutive Ones | 100 [ PPPPPPPPPP ] | Python | 19/01/23 10:06:06 |
 | [ex00e4](ex00e4.cpp) | Gen Barcode | 100 [ PPPPPPPPPP ] | C++ | 19/01/23 09:55:48 |
 
-Last update : 30-04-2023 19:46
+Last update : 05-06-2023 19:06
